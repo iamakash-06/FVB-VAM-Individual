@@ -36,7 +36,7 @@ jobs:
     name: Heatmap Analysis
     runs-on: ubuntu-latest
     timeout-minutes: 25
-    needs: aggregation
+    needs: eye_tracking
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
